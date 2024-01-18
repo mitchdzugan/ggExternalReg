@@ -1,0 +1,11 @@
+mutation GenerateRegistrationToken(
+  $registrationToken: String
+  $registration: TournamentRegistrationInput!
+) {
+	registerForTournament(
+    registrationToken: $registrationToken
+    registration: $registration
+  ) {
+    id
+  }
+}

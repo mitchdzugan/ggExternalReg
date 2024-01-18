@@ -1,0 +1,24 @@
+{
+  "name": "ggRegApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "Mitch Dzugan <mitchdzugan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "handshaker": "yarn node ./scripts/handshaker.js",
+    "userid": "yarn node ./scripts/userid.js",
+    "tourney_info": "yarn node ./scripts/tourney_info.js",
+    "gen_reg_token": "yarn node ./scripts/gen_reg_token.js",
+    "reg_for_tourney": "yarn node ./scripts/reg_for_tourney.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "oauth": "^0.10.0"
+  },
+  "imports": {
+    "#lib/*.js": "lib/*.js"
+  }
+}

@@ -1,0 +1,11 @@
+
+/target
+/dist
+/resources
+/node_modules
+.shadow-cljs/
+.clj-kondo/
+.cpcache/
+.nrepl-port
+/yarn-error.log
+/lib/.db.json

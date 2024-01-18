@@ -1,0 +1,6 @@
+mutation GenerateRegistrationToken(
+  $userId: ID!
+  $registration: TournamentRegistrationInput!
+) {
+	generateRegistrationToken(userId: $userId registration: $registration)
+}
