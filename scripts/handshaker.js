@@ -8,8 +8,7 @@ const app = express();
 
 const port = 7272;
 const redirect_uri = `http://localhost:${port}/oauth`;
-const scope = ['user.tournamentRegistration'].join(' ');
-// const scope = ['user.identity'].join(' ');
+const scope = ['user.tournamentRegistration', 'user.identity'].join(' ');
 
 const renderPage = (content) => `
     <!DOCTYPE html>
